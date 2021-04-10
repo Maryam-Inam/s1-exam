@@ -3,72 +3,119 @@
 <html lang="en">
   <head>
     <title>Departments | University of Central Punjab</title>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      rel="stylesheet"
-      type="text/css"
-      href="stylesheet.css"
-      media="screen"
-    />
+    <style>
+      #sidebar li {
+        text-decoration: none;
+        list-style: none;
+        text-align: unset;
+        display: block;
+      }
+      #main-foot {
+        text-align: center;
+        margin-top: 40px;
+        width: 100%;
+      }
+      .topBar {
+        background-color: rgb(31, 44, 104);
+        height: 100px;
+        width: 100%;
+        position: fixed;
+      }
+      ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: rgb(31, 44, 104);
+      }
+
+      li {
+        float: right;
+      }
+
+      li a {
+        display: inline-block;
+        color: white;
+        text-align: center;
+        line-height: 50px;
+        padding: 14px 20px;
+        text-decoration: none;
+      }
+
+      #VM ul {
+        background-color: transparent;
+        padding: 20px;
+      }
+      #VM li {
+        display: block;
+        width: 100%;
+        padding: 4px;
+        border-bottom: 1px solid lightgray;
+        background-color: transparent;
+      }
+      #VM li a {
+        text-decoration: none;
+        color: black;
+        font-family: monospace;
+        font-size: 20px;
+        font-weight: bold;
+      }
+      #VM li:hover {
+        background-color: rgba(211, 211, 211, 0.3);
+      }
+    </style>
   </head>
   <body>
-    <div
-      class="top bar"
-      style="background-color: rgb(31, 44, 104); height: 75px; width: 103%"
-    >
+    <div class="topBar">
       <!-- logo -->
-      <span style="margin-left: 50px">
-        <a href="https://edhi.org/"><img src="logo.png" alt="" /></a>
-      </span>
-      <nav
-        id="navbar"
-        style="float: right; background-color: rgb(31, 44, 104); margin: 20px"
-      >
-        <div class="container">
-          <ul>
-            <li><a href="https://www.ucp.edu.pk/departments/">Academics</a></li>
-            <li>
-              <a href="https://www.ucp.edu.pk/departments/">Admissions</a>
-            </li>
-            <li><a href="https://www.ucp.edu.pk/departments/">About</a></li>
-            <li>
-              <a href="https://www.ucp.edu.pk/departments/">UCP online</a>
-            </li>
-            <li><a href="https://www.ucp.edu.pk/departments/">My UCP</a></li>
-            <li><a href="https://www.ucp.edu.pk/departments/">Research</a></li>
-          </ul>
-        </div>
-      </nav>
+
+      <a href="https://edhi.org/"
+        ><img style="float: left" src="logo.png" alt=""
+      /></a>
+
+      <ul>
+        <li><a href="https://www.ucp.edu.pk/departments/">Academics</a></li>
+        <li>
+          <a href="https://www.ucp.edu.pk/departments/">Admissions</a>
+        </li>
+        <li><a href="https://www.ucp.edu.pk/departments/">About</a></li>
+        <li>
+          <a href="https://www.ucp.edu.pk/departments/">UCP online</a>
+        </li>
+        <li><a href="https://www.ucp.edu.pk/departments/">My UCP</a></li>
+        <li><a href="https://www.ucp.edu.pk/departments/">Research</a></li>
+      </ul>
       <!-- logo ends -->
     </div>
+    <br />
+    <br /><br /><br />
+    <br /><br />
+    <div class="">
+      <img style="width: 100%" src="2ndimage.PNG" alt="" />
+    </div>
 
-    <div class="container" style="width: 100%">
-      <span style="margin-left: 0px; width: 20%">
-        <a href="https://www.ucp.edu.pk/departments/"
-          ><img src="2ndimage.PNG" alt=""
-        /></a>
-      </span>
+    <div id="VM">
+      <ul>
+        <li><a href="www.nmtechedge.com">Student Council </a></li>
+        <li><a href="www.nmtechedge.com">Career services office</a></li>
+        <li><a href="www.nmtechedge.com">Alumni services office</a></li>
+        <li><a href="www.nmtechedge.com">Volunteers in service</a></li>
+        <li>
+          <a href="www.nmtechedge.com"
+            >Departments of sustainable environment</a
+          >
+        </li>
+        <li><a href="www.nmtechedge.com">Registrar office</a></li>
+      </ul>
     </div>
-    <div class="container">
-      <aside id="sidebar">
-        <ul>
-          <li><a href="www.nmtechedge.com">Student Council</a></li>
-          <li><a href="www.nmtechedge.com">Career services office</a></li>
-          <li><a href="www.nmtechedge.com">Alumni services office</a></li>
-          <li><a href="www.nmtechedge.com">Volunteers in service</a></li>
-          <li>
-            <a href="www.nmtechedge.com"
-              >Departments of sustainable environment</a
-            >
-          </li>
-          <li><a href="www.nmtechedge.com">Registrar office</a></li>
-        </ul>
-      </aside>
-    </div>
+
     <footer id="main-foot">
-      <p>Copyright &copy; 2021, MySite</p>
+      <div style="width: 100%">
+        <a href="https://edhi.org/"
+          ><img style="width: 100%" src="footer.png" alt=""
+        /></a>
+      </div>
     </footer>
   </body>
 </html>
